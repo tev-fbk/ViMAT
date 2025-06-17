@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JNN7F7HDFD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-JNN7F7HDFD');
+  </script>
+  <meta name="description" content="AI-driven visual monitoring of industrial assembly tasks">
+  <meta name="keywords" content="ViMAT, Visual Monitoring, Industrial Assembly, AI, Computer Vision, Deep Learning">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>AI-driven visual monitoring of industrial assembly tasks</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
+  >
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns">
+          <div class="column is-three-fifths is-flex is-flex-wrap-wrap">
+                <img src="static/images/logo_fbk.png" style="height: 100px;" alt="MY ALT TEXT"/>
+                <img src="static/images/logo_TEV.png" style="height: 100px;" alt="MY ALT TEXT"/>
+          </div>
+          <div class="column is-flex is-flex-direction-row-reverse is-flex-wrap-wrap">
+            <img src="static/images/logo_CVPR_Blue.svg" style="height: 100px;" alt="MY ALT TEXT"/>
+              </div>
+        </div>
+        <div class="columns is-centered">
+
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">AI-driven visual monitoring of industrial assembly tasks</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+                <span class="author-block">
+                  <a href="https://tev.fbk.eu/team/mattia-nardon" target="_blank">Mattia Nardon</a><sup>1</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="https://tev.fbk.eu/team/stefano-messelodi" target="_blank">Stefano Messelodi</a><sup>1</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="https://www.sarca.it/" target="_blank">Antonio Granata</a><sup>2</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="https://fabiopoiesi.github.io/" target="_blank">Fabio Poiesi</a><sup>1</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="https://www.sarca.it/" target="_blank">Alberto Danese</a><sup>2</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="https://davideboscaini.github.io/" target="_blank">Davide Boscaini</a><sup>1</sup>
+                </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Fondazione Bruno Kessler,</span>
+                    <span class="author-block"><sup>2</sup>Meccanica del Sarca s.p.a.</span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/teaser.png" alt="Teaser Image" style="width: 100vw; height: auto; display: block;">
+      <h2 class="subtitle" style="text-align: justify;">
+          We present ViMAT, a novel system for the real-time visual monitoring of industrial assembly tasks. Given prior knowledge on assembly instructions (top left) and synthetic CAD models of assembly components (bottom left), ViMAT integrates an AI-driven perception module, which extracts visual observations from real-world video streams (top right), with a probabilistic reasoning module that predicts the assembly state from these observations (bottom center-right).
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Visual monitoring of industrial assembly tasks is critical for preventing equipment damage due to procedural errors and ensuring worker safety.
+            Although commercial solutions exist, they typically require rigid workspace setups or the application of visual markers to simplify the problem.
+            We introduce ViMAT, a novel AI-driven system for real-time visual monitoring of assembly tasks that operates without these constraints.
+            ViMAT combines a perception module that extracts visual observations from multi-view video streams with a reasoning module that infers the most likely action being performed based on the observed assembly state and prior task knowledge.
+            We validate ViMAT on two assembly tasks, involving the replacement of \lego components and the reconfiguration of hydraulic press molds, demonstrating its effectiveness through quantitative and qualitative analysis in challenging real-world scenarios characterized by partial and uncertain visual observations.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<footer class="footer">
+  <div class="container">
+      <div class="content has-text-centered">
+          <!-- Link to Paper -->
+          <a class="icon-link" href="https://arxiv.org/pdf/2503.13082" target="_blank" title="View Paper on arXiv">
+              <i class="fas fa-file-pdf fa-2x"></i>
+          </a>
+      </div>
+      <div class="columns is-centered" style="margin-top: 20px;">
+          <div class="column is-8">
+              <div class="content has-text-centered">
+                  <p>
+                      This website is licensed under a
+                      <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license" target="_blank">
+                          Creative Commons Attribution-ShareAlike 4.0 International License
+                      </a>.
+                  </p>
+                  <p>
+                      Template adapted from
+                      <a href="https://github.com/nerfies/nerfies.github.io" target="_blank">Nerfies</a>.
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+  </body>
+  </html>
