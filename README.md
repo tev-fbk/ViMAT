@@ -4,7 +4,11 @@ This is the repository that contains website source code for the [ViMAT website]
 
 If you find ViMAT useful for your work please cite:
 ```
-
+@article{nardon2025vimat,
+  title={AI-driven visual monitoring of industrial assembly tasks},
+  author={Nardon, Mattia and Messelodi, Stefano and Granata, Antonio and Poiesi, Fabio and Danese, Alberto and Boscaini, Davide},
+  journal={arXiv},
+  year={2025}}
 ```
 
 # Website License
